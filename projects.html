@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Wim Hembrechts" />
+    <meta name="description" content="Welkom op mijn website" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap-grid.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="true">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&amp;display=swa">
+
+    <!--    <link rel="stylesheet" href="css/style.css">-->
+    <link rel="stylesheet" href="css/newstyle.css">
+    <title>Portfolio - Projects</title>
+</head>
+
+<body class="projects">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3">
+        <div class="logo">
+            <a class="navbar-brand ml-2" href="index.html">
+                <img src="Images/logo.png" alt="initials" width="80px" class="ml-5">
+            </a>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse ml-lg-0 ml-5 p-3" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutme.html">About me</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="projects.html">Projects <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="resume.html">Resume</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="sea pt-4">
+        <div class="container p-0">
+            <section class="col-12 row justify-content-center ml-2 mr-2">
+                <div class="col-xl-7 col-md-8">
+                    <h4>System Engineering &amp; Analysis - Stock management system</h4>
+                    <p>
+                        For the course System Engineering &amp; Analysis we were given a project in groups of four students.
+                        Each group received a problem from a customer (teacher) that we had to find a solution for.
+                        Our problem was about the expiration date of products in supermarkets.
+                        We had to find a way to track the expiration date of the products so the system knows which products are being sold and which expiration date they have.
+                        <br>
+                        This way it is easier to keep track of which products expire, when they expire and how many there are.
+                        This way non-profit organizations can be contacted in time.
+                    </p>
+                    <p>
+                        During the semester we had a few meetings with our customer so we could understand the problem.
+                        This way we had a better idea of what the functional requirements as well as the non-functional requirements of the system were.
+                        <br>
+                        Then we had to think of a way to make a proof of concept that we would later develop.
+                    </p>
+                </div>
+                <div class="col-xl-3 col-md-4 col-sm-6">
+                    <figure class="unicenta">
+                        <img src="Images/unicenta.png" alt="Unicenta" title="Unicenta Logo">
+                        <figcaption>Unicenta</figcaption>
+                    </figure>
+                </div>
+                <div class="col-xl-10 col-md-12">
+                    <p>
+                        After the exams we had five days to develop this proof of concept.
+                        We didn't change anything in the existing system apart from the database.
+                        We added a few collumns to the database so the system was able to store of the expiration date of products.
+                        Then we started to develop a web interface so this data could be monitored via a website.
+                        On this website employees could easily see when products would expire.
+                        We also added the functionality to send an email to the non-profit organizations.
+                        <br>
+                        We haven't done anything with actually scanning the products so the date would be entered automatically because we weren't fully prepared at the start of the project week.
+                    </p>
+                    <p>
+                        So next time we should prepare more so we don't lose time doing research during the actual project week.
+                        Apart from that I learned to work better in a team and what it would be like to have a real client or customer in the future.
+                    </p>
+                </div>
+            </section>
+        </div>
+    </section>
+    <section class="iot mt-3 pt-4">
+        <div class="container p-0">
+            <section class="col-12 row justify-content-center ml-2 mr-2">
+                <div class="col-xl-5 col-md-7">
+                    <h4>IoT Essentials - Raspberry PI internet radio</h4>
+                    <p>
+                        During the course IoT Essentials we received an individual project.
+                        We had to create an internet radio using a Raspberry Pi and some other components.
+                        The radio had to be able to play 4 radio stations and change the stations by turning a potentiometer.
+                        This had to be visually visible. By turning another potentiometer we had to control the volume.
+                        All this data had to be displayed by an LCD screen.
+                    </p>
+                </div>
+                <figure class="pi col-lg-5 col-md-5">
+                    <img src="Images/Internetradio1.jpg" alt="Raspberry Pi internet radio outside" title="Raspberry Pi internet radio outside">
+                    <figcaption>
+                        Raspberry Pi internet radio outside
+                    </figcaption>
+                </figure>
+                <figure class="pi col-lg-5 col-md-5">
+                    <img src="Images/Internetradio2.jpg" alt="Raspberry Pi internet radio inside" title="Raspberry Pi internet radio inside">
+                    <figcaption>
+                        Raspberry Pi internet radio inside
+                    </figcaption>
+                </figure>
+                <div class="col-xl-5 col-md-7">
+                    <p>
+                        I worked out this project step by step.
+                        First ensure that the radio can play one radio station.
+                        Then try to let the volume change, and so on until all the requirements were completed.
+                        After all the programming was done and everything worked fine I created a box out of Lego.
+                        Everything would then fit in the box so that it would look more like an actual radio.
+                        I used my 3D-printer to create some parts so everything would be held in place inside the box.
+                    </p>
+                </div>
+                <div class="col-xl-10">
+                    <p>
+                        With this project I started well in advance so I would have plenty of time to finish it,
+                        and so I would still have enough time for other projects.
+                        Sometimes I got stuck on some part of the project so I would take a break and try again a few days later.
+                        After the break it always went smooth again.
+                        By doing this I learned that you sometimes need to take a break from a project in order to continue.
+                        But in order to do that you need time. So that's one of the reason why you should always start early.
+                    </p>
+                    <p>
+                        <a href="https://www.youtube.com/watch?v=3l8uAlWRRPg">You can see the result of this project here</a>
+                    </p>
+                </div>
+            </section>
+        </div>
+    </section>
+    <section class="ccs mt-3 pt-4">
+        <div class="container p-0">
+            <section class="col-12 row justify-content-center ml-2 mr-2">
+                <div class="col-xl-5 col-md-7">
+                    <h4>Orientation Project - Cloud &amp; Cybersecurity</h4>
+                    <p>
+                        During the first year we received two orientation projects to determine our trajectory for the coming years.
+                        These projects were in groups of 4 people.
+                        In the second project I chose the Cloud & cybersecurity project.
+                        We had to develop a camera surveillance system using a few components:
+                        Watchguard Firebox, HP switch, Server and IP cameras.
+                        There were also some requirements for this project.
+                        <br>
+                        &rarr; We had 2 cameras of which one had to be at school and one at home.
+                        <br>
+                        &rarr; We also had to use 2 IP cameras on the internet.
+                        <br>
+                        &rarr; The camera images had to be backed up.
+                        <br>
+                        &rarr; We had to monitor the network.
+                    </p>
+                </div>
+                <figure class="topology col-lg-5 col-md-5">
+                    <img src="Images/Topology.png" alt="Network topology" title="Network topology">
+                    <figcaption>
+                        Network topology
+                    </figcaption>
+                </figure>
+                <figure class="netdata col-lg-5 col-md-5">
+                    <img src="Images/Server%20Netdata.png" alt="Netdata monitoring" title="Netdata monitoring">
+                    <figcaption>
+                        Netdata monitoring
+                    </figcaption>
+                </figure>
+                <div class="col-xl-5 col-md-7">
+                    <p>
+                        At the start of the project, we as a group looked at how we could achieve everything.
+                        We started by designing and setting up a network.
+                        After that, we looked at which technologies and protocols we needed for the cameras,
+                        monitoring and backups.
+                        These are the programs we ultimately chose:
+                        Zoneminder for the cameras, Netdata for the monitoring and Rsync and Gzip for the backups.
+                        All these programs ran on our server.
+                        This server itself, of course, also had an operating system.
+                        As operating system we used Fedora.
+                    </p>
+                </div>
+                <div class="col-xl-10">
+                    <p>
+                        Since this project only lasted five days and one day was planned for the presentations of the final results, we only had 4 effective days to get everything working.
+                        Of course, this meant that we couldn't dwell too long on everything and had to make quick decisions.
+                        This did not always work out well and because of this we have only provided a simple solution for our backup method.
+                        But our team did work well together and we complemented each other quite well.
+                    </p>
+                </div>
+            </section>
+        </div>
+    </section>
+    <section class="hosting mt-3 pt-4">
+        <div class="container p-0">
+            <section class="col-12 row justify-content-center ml-2 mr-2">
+                <div class="col-xl-4 col-md-5">
+                    <h4>Project Hosting - Hosting platform (Ongoing)</h4>
+                    <p>
+                        For the project hosting course we have to design and set up a hosting platform,
+                        which can then be used by the App-AI students to host their PHP projects.
+                        This is of course way too much work for one person,
+                        which is why we do this in a group of six people.
+                        To host PHP projects we obviously need a few things.
+                        A web service with PHP on it and a database.
+                        And we as administrators must of course also be able to monitor everything.
+                        We will run this hosting platform on a data center at school that we have at our disposal.
+                    </p>
+                </div>
+                <figure class="schema col-xl-6 col-md-7">
+                    <img src="Images/My%20Schema3.PNG" alt="Schema" title="Schema">
+                    <figcaption>
+                        Schema
+                    </figcaption>
+                </figure>
+                <div class="col-xl-5 col-md-6">
+                    <p>
+                        In the image above you can see what the schema of our platform looks like for now.
+                        We use different servers,
+                        each with its own task so that no server is overloaded and has to do too much.
+                        This is to avoid downtime. Of course,
+                        this platform must also be safe and only people with permission are allowed to access our server.
+                        To achieve this we use a Pfsense firewall as a gateway.
+                        Of course, we also need to make backups of everything to prevent data loss.
+                        Backups only come in handy when it's too late. To ensure that it does not come to that,
+                        we will also monitor everything. All this is of course a lot of work,
+                        to make our work easier we will of course try to automate as much as possible.
+                        We will do this with Puppet.
+                    </p>
+                </div>
+                <div class="col-xl-5 col-md-6">
+                    <p>
+                        For the time being, we are still very busy with this project, so we don't really have many results yet.
+                        But this doesn't mean we haven't learned anything yet.
+                        At the start of the project we started a bit too slowly,
+                        so we now have to work hard to get everything finished on time.
+                        We have also run into some problems for which we did not immediately find a solution.
+                        In the future it is therefore certainly important that we ask for help if we need it.
+                    </p>
+                </div>
+            </section>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="container p-0">
+            <footer class="row justify-content-center">
+                <h2 id="info" class="mt-2 mb-2 col-12">Extra</h2>
+                <ul class="p-0 row justify-content-center">
+                    <li class="col-5"><a href="#">Top of the page</a></li>
+                    <li class="col-5">&copy; Wim Hembrechts</li>
+                    <li class="col-5"><a href="mailto:r0751084@student.thomasmore.be">Send me an e-mail</a></li>
+                    <li class="col-5"><a href="https://www.linkedin.com/in/wim-hembrechts-779ba0212">My LinkedIn account</a></li>
+                </ul>
+            </footer>
+        </div>
+    </section>
+</body>
+
+</html>

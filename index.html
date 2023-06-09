@@ -1,1 +1,109 @@
-Hello world
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Wim Hembrechts" />
+    <meta name="description" content="Welkom op mijn website" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap-grid.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="true">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&amp;display=swa">
+
+<!--    <link rel="stylesheet" href="css/style.css">-->
+    <link rel="stylesheet" href="css/newstyle.css">
+    <title>Portfolio - Wim Hembrechts</title>
+
+</head>
+
+<body class="index">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3">
+        <div class="logo">
+            <a class="navbar-brand ml-2" href="index.html">
+                <img src="Images/logo.png" alt="initials" width="80px" class="ml-5">
+            </a>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse ml-lg-0 ml-5 p-3" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutme.html">About me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="resume.html">Resume</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container p-0">
+        <article class="home">
+            <section class="row justify-content-center mt-5 ml-1 mr-1">
+                <div class="order-md-1 col-lg-2"></div>
+                <div class="col-md-6 order-md-3 col-lg-4">
+                    <p class="pt-2">
+                        Hello, I am Wim Hembrechts. Welcome to my website! Here you can find everything about me.
+                        You can navigate to the different web pages using the tiles below or using the navigation bar.
+                        At the bottom of the page you can find some extra info.
+                    </p>
+                </div>
+                <div id="me" class="col-md-4 order-md-2 col-lg-3">
+                    <img src="Images/Pasfoto.jpg" alt="Portretfoto" title="Foto van mij">
+                    <p>Wim Hembrechts</p>
+                </div>
+                <div class="order-md-4 col-lg-2"></div>
+            </section>
+
+            <section class="row justify-content-center mt-5 ml-1 mr-1">
+                    <a class="btn btn-lg btn-dark font-weight-bold p-5 m-xl-4 m-2" href="aboutme.html" role="button">
+                        About me
+                    </a>
+                    <a class="btn btn-lg btn-dark font-weight-bold p-5 m-xl-4 m-2" href="projects.html" role="button">
+                        <span class="p-2">Projects</span>
+                    </a>
+                    <a class="btn btn-lg btn-dark font-weight-bold p-5 m-xl-4 m-2" href="resume.html" role="button">
+                        <span class="p-2">Resume</span>
+                    </a>
+            </section>
+        </article>
+
+        <footer class="row justify-content-center align-bottom mt-5 pb-3">
+            <h2 class="col-12">Extra</h2>
+            <div id="info">
+                <svg width="250" height="250">
+                    <circle cx="50%" cy="50%" r="50%" fill="#0000ff" />
+                    <circle cx="50%" cy="24%" r="10%" fill="white" />
+                    <rect x="45%" y="46%" width="10%" height="34%" fill="white" />
+                    <rect x="40%" y="38%" width="20%" height="8%" fill="white" />
+                    <rect x="40%" y="80%" width="20%" height="8%" fill="white" />
+                </svg>
+            </div>
+            <div class="ml-4">
+                <ul class="p-0">
+                    <li><a href="#" id="topofpage">Top of the page</a></li>
+                    <li>&copy; Wim Hembrechts</li>
+                    <li><a href="mailto:r0751084@student.thomasmore.be">Send me an e-mail</a></li>
+                    <li><a href="https://www.linkedin.com/in/wim-hembrechts-779ba0212">My LinkedIn account</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
